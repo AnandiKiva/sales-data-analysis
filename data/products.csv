@@ -1,0 +1,26 @@
+product_id,product_name,category,list_price
+P001,Laptop 14in Core i5,Laptops,12999.0
+P002,Laptop 15in Core i7,Laptops,18499.0
+P003,Gaming Laptop RTX,Laptops,27999.0
+P004,Chromebook 11in,Laptops,4999.0
+P005,Smartphone A15,Phones,3299.0
+P006,Smartphone Pro Max,Phones,22999.0
+P007,Smartphone Mid 5G,Phones,7499.0
+P008,Tablet 10in,Tablets,5999.0
+P009,Tablet Pro 12in,Tablets,16999.0
+P010,Wireless Earbuds,Audio,1299.0
+P011,Noise Cancelling Headphones,Audio,5499.0
+P012,Bluetooth Speaker,Audio,1799.0
+P013,Smartwatch,Wearables,4299.0
+P014,Fitness Band,Wearables,899.0
+P015,27in Monitor,Accessories,3999.0
+P016,Wireless Mouse,Accessories,349.0
+P017,Mechanical Keyboard,Accessories,1199.0
+P018,USB-C Hub,Accessories,599.0
+P019,1TB External SSD,Storage,1899.0
+P020,128GB Flash Drive,Storage,249.0
+P021,Wi-Fi 6 Router,Networking,2199.0
+P022,Mesh Wi-Fi Kit,Networking,4999.0
+P023,Gaming Console,Gaming,11999.0
+P024,Game Controller,Gaming,1299.0
+P025,Power Bank 20000mAh,Accessories,699.0

@@ -1,0 +1,13 @@
+rule_id,rule,rows_affected,action
+DQ-00,Rows received in raw export,6060,Baseline count
+DQ-01,Exact duplicate rows,60,"Removed, first copy kept"
+DQ-02,Dates in non-standard formats,1172,Converted to YYYY-MM-DD
+DQ-03,Missing or impossible dates,15,Rejected
+DQ-04,Unknown store_id or product_id,20,Rejected
+DQ-05,Missing quantity,40,"Rejected, cannot be estimated"
+DQ-06,Zero or negative quantity,30,"Rejected, returns belong in a separate process"
+DQ-07,Prices with currency symbols or spaces,918,Converted to numeric
+DQ-08,Unreadable or non-positive price,0,Rejected
+DQ-09,Region spelled inconsistently,4047,Replaced with region from store master
+DQ-10,Typed region conflicts with store master,0,Store master used
+DQ-99,Clean rows loaded,5895,97.3% of rows received
